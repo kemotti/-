@@ -1,0 +1,7 @@
+import CSV
+import pandas as pd
+df = pd.read_csv("/Users/kemotti/Downloads/FEH_00200521_220610143730.csv",index_col=0)
+
+with open('/Users/kemotti/Downloads/FEH_00200521_220610143730.csv') as f:
+    print(f.read())
+    print(df.describe())
